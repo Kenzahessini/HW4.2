@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projections - Kenza Hessini</title>
+</head>
+<body>
+    <h1>In this project I learned how to display images in different projections</h1>
+    
+    <h2 style="color:rgb(25, 0, 255)"> How I used QGIS for this project</h2>
+    <p>For this project, I used QGIS to display maps in different projections. Starting off, I downloaded data provided for on Sakai and unzipped the file. I then dragged the SHP file into QGIS that showed a basic world map. Using the Indicatrix mapper plugin that I had installed, I added a vector layer of circles that shows the distortion of different maps. Then, on QGIS I looked up the EPSGs of different projections to change the look of the map. This allowed me to see how different projections show and distort the Earth. Then, I exported the maps with a label on them that said their projection name and EPSG so that I could add it to this site.</p>
+    
+    <h2>WGS84 Projection</h2>
+    <h3>With this map, we see that the circles near the poles are far more distorted, both elongated and larger than the circles near the pole that maintain their shape and size. This tells us that the shape and area of the countries are distorted. It works well for distances thus for purposes of navigation.   </h3>
+    <a href=".//maps/4326.png">
+    <img src=".//maps/4326.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>Aitoff Projection</h2>
+    <h3>This map again distorts as you go closer to the two poles. Everything gets distorted in a way but is balanced to give a compromise between shape, area, distance, and direction. </h3>
+    <a href=".//maps/54043.png">
+    <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
+    </a>
+    <h2>Pseudo Mercator Projection</h2>
+    <h3>This map is similar to the WGS84 map. The distortion occurs mostly at the poles distorting shape and area. This map does a good job of maintaining distancing allowing for its use in navigation. </h3>
+    <a href="./maps/3857.png">
+    <img src="./maps/3857.png" alt="3857" width='500px'>
+    </a>
+    </a>
+    <h2>Robinson Projection</h2>
+    <h3>This projection, similar to the Aitoff projection, compromises between shape, area, distance, and directions, distorting each of them. It gives a good compromise between the differences. The distorting is heaviest towards the poles and the equator is the most accurate. </h3>
+    <a href="./maps/53018.2.png">
+    <img src="./maps/53018.2.png" alt="53018" width='500px'>
+    </a>
+    </a>
+    <h2>Equal Area Cylindrical Projection</h2>
+    <h3>This map preserves areas across the map. However, as you move further from the equator towards the poles, we see a distortion of shape as the circles become more elongated.  This map would be used when measuring the area of different countries.</h3>
+    <a href="./maps/54034.png">
+    <img src="./maps/54034.png" alt="54034" width='500px'>
+    </a>
+    </a>
+    <h2>Equidistant Conic Projection</h2>
+    <h3>This map maintains the distance between countries but as it evident from the circles, intensely distorts the shape and area of countries near the South Pole flattening the countries and elongating them. This map would probably be used to look at countries in the north or for distances.</h3>
+    <a href="./maps/54027.png">
+    <img src="./maps/54027.png" alt="54027" width='500px'>
+    </a>
+    </a>
+    <h2>Azimuthal Equidist Projection</h2>
+    <h3>This map preserves directions and distance from the north pole distorting shape and area as you go towards the south pole. </h3>
+    <a href="./maps/102016.png">
+    <img src="./maps/102016.png" alt="102016" width='500px'>
+    </a>
+    </a>
+    <h2>Bonne Sphere Projection</h2>
+    <h3>This map maintains areas of countries throughout the world and helps to maintain the North Pole that is often distorted in map projections. The South Pole gets its shape distorted the most. This map works well for looking at countries in the north. </h3>
+    <a href="./maps/53024.png">
+    <img src="./maps/53024.png" alt="53024" width='500px'>
+    </a>
+    </a>
+    <h2> Cassini Projection</h2>
+    <h3>This map distorts shape, area, distance, and direction the further you get from the intersection of the prime meridian and the equator. In the center of the map, we see that area and shape are preserved.</h3>
+    <a href="./maps/54028.png">
+    <img src="./maps/54028.png" alt="54028" width='500px'>
+    </a>
+    <p></p>
+    <h2>Data used for this project</h2>
+    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+</body>
+</html>

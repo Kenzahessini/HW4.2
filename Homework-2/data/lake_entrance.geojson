@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "lake_entrance",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "Point", "coordinates": [ -8797740.79692087136209, 4293176.099311597645283 ] } }
+]
+}
