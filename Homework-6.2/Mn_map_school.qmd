@@ -1,0 +1,68 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.22.9-Białowieża">
+  <identifier>mn_county_boundaries_1000</identifier>
+  <parentidentifier></parentidentifier>
+  <language>EN</language>
+  <type>dataset</type>
+  <title>mn_county_boundaries_1000</title>
+  <abstract>Minnesota county boundaries derived from a combination of 1:24,000 scale PLS lines, 1:100,000 scale TIGER, 1:100,000 scale DLG, and 1:24,000 scale hydrography lines. At the time of its development (1993), the largest available scale data were assembled to create the layer.
+
+This layer exists to facilitate integration between county and PLS data sets. Used also as the basis for county-based tiling schemes with DNR's GIS Core datbase. The state border contained within the layer is used in numerous DNR data sets.
+
+Statewide</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Minnesota</keyword>
+    <keyword>Minnesota counties</keyword>
+    <keyword> boundaries</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Minnesota counties</keyword>
+    <keyword> boundaries</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>500 Lafayette Road - Box 45</address>
+      <city>St. Paul</city>
+      <administrativearea>MN</administrativearea>
+      <postalcode>55155</postalcode>
+      <country></country>
+    </contactAddress>
+    <name>Renee Johnson</name>
+    <organization>DNR-Lands and Minerals</organization>
+    <position>ITS 3</position>
+    <voice>(651) 259-5396</voice>
+    <fax></fax>
+    <email>renee.johnson@state.mn.us</email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link mimeType="" url="" name="" format="" description="" size="" type=""/>
+  </links>
+  <history>Data source: </history>
+  <fees></fees>
+  <constraints type="Limitations of use">The Minnesota Department of Natural Resources makes no representation or warranties, express or implied, with respect to the reuse of data provided herewith, regardless of its format or the means of its transmission. There is no guarantee or representation to the user as to the accuracy, currency, suitability, or reliability of this data for any purpose. The user accepts the data 'as is', and assumes all risks associated with its use. By accepting this data, the user agrees not to transmit this data or provide access to it or any part of it to another party unless the user shall include with the data a copy of this disclaimer. The Minnesota Department of Natural Resources assumes no responsibility for actual or consequential damage incurred as a result of any user's reliance on this data.</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt>PROJCRS["NAD83 / UTM zone 15N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 15N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-93,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["North America - 96°W to 90°W and NAD83 by country"],BBOX[25.61,-96,84,-90]],ID["EPSG",26915]]</wkt>
+      <proj4>+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2292</srsid>
+      <srid>26915</srid>
+      <authid>EPSG:26915</authid>
+      <description>NAD83 / UTM zone 15N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minx="-97.26990000000000691" maxx="-89.39709999999999468" minz="0" dimensions="2" maxz="0" maxy="49.40449999999999875" crs="EPSG:26915" miny="43.43540000000000134"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
